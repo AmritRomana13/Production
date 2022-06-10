@@ -79,8 +79,8 @@ $cart_count = get_user_cart_count();
     <div id="pre-loader">
         <img src="<?php echo base_url('assets/') ?>images/loader.gif" alt="Loading..." />
     </div>
-    <div style="background-color: black; color: white; text-align: center;padding: 7px;">
-        <span style="font-size:9px;font-weight: bolder;letter-spacing: 0.08em;"><a href="" style="color: white;"> SALE: EXTRA 15% OFF SALE ITEMS AT CHECKOUT | LIMITED TIME ONLY</a>
+    <div style="background-color: black; color: white; text-align: center;padding: 5px;">
+        <span style="font-size:9px;font-weight: bolder;letter-spacing: 0.08em;"><a href="" style="color: white;"> SALE: EXTRA 15% OFF SALE ITEMS AT CHECKOUT </a>
         </span>
 
     </div>

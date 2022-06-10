@@ -26,7 +26,7 @@
                           <h4 class="h4" style="font-family: zurichultraBlkExbt;">Informations</h4>
                           <ul style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
                               <li><a href="<?php echo base_url('contact_us') ?>">Contact us</a></li>
-                              <li><a href="#">About us</a></li>
+                              <li><a href="<?php echo base_url('about') ?>">About us</a></li>
                               <li><a href="#">Privacy policy</a></li>
                               <li><a href="#">Terms &amp; condition</a></li>
                           </ul>
@@ -148,7 +148,9 @@
 
   <?php
   $flash_message = $this->session->flashdata('message');
+//   echo $flash_message;
   if(!empty($flash_message)){
+    $this->session->set_flashdata('message', null);
         echo "<script>alert('{$flash_message}');</script>";
   }
   ?>

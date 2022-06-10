@@ -14,7 +14,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 pr-0">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 pr-0" style="margin-top:13vh">
                 <div class="container">
                     <div class="row">
 
@@ -26,7 +26,7 @@
                             <div class="col">
                                 <div class="product-image">
                                     <a href="<?php echo base_url('view_product/') . $product_1_data->slug ?>" class="grid-view-item__link">
-                                        <img class="primary blur-up lazyload" data-src="<?php echo base_url('uploads/products/') .  json_decode($product_1_data->images)[0] ?>" style="height: 300px;object-fit: contain;" alt="image" title="product">
+                                        <img class="primary blur-up lazyload" data-src="<?php echo base_url('uploads/products/') .  json_decode($product_1_data->images)[0] ?>" style="max-height: 250px;object-fit: contain;" alt="image" title="product">
                                 </div>
                                 <div class="product-details">
                                     <!-- product name -->
@@ -52,7 +52,7 @@
                             <div class="col">
                                 <div class="product-image">
                                     <a href="<?php echo base_url('view_product/') . $product_2_data->slug ?>" class="grid-view-item__link">
-                                        <img class="primary blur-up lazyload" data-src="<?php echo base_url('uploads/products/') .  json_decode($product_2_data->images)[0] ?>" style="height: 300px;object-fit: contain;" alt="image" title="product">
+                                        <img class="primary blur-up lazyload" data-src="<?php echo base_url('uploads/products/') .  json_decode($product_2_data->images)[0] ?>" style="max-height: 250px;object-fit: contain;" alt="image" title="product">
                                 </div>
                                 <div class="product-details">
                                     <!-- product name -->
@@ -78,7 +78,7 @@
                             <div class="col">
                                 <div class="product-image">
                                     <a href="<?php echo base_url('view_product/') . $product_3_data->slug ?>" class="grid-view-item__link">
-                                        <img class="primary blur-up lazyload" data-src="<?php echo base_url('uploads/products/') .  json_decode($product_3_data->images)[0] ?>" style="height: 300px;object-fit: contain;" alt="image" title="product">
+                                        <img class="primary blur-up lazyload" data-src="<?php echo base_url('uploads/products/') .  json_decode($product_3_data->images)[0] ?>" style="max-height: 250px;object-fit: contain;" alt="image" title="product">
                                 </div>
                                 <div class="product-details">
                                     <!-- product name -->
@@ -103,7 +103,7 @@
                             <div class="col">
                                 <div class="product-image">
                                     <a href="<?php echo base_url('view_product/') . $product_4_data->slug ?>" class="grid-view-item__link">
-                                        <img class="primary blur-up lazyload" data-src="<?php echo base_url('uploads/products/') .  json_decode($product_4_data->images)[0] ?>" style="height: 300px;object-fit: contain;" alt="image" title="product">
+                                        <img class="primary blur-up lazyload" data-src="<?php echo base_url('uploads/products/') .  json_decode($product_4_data->images)[0] ?>" style="max-height: 250px;object-fit: contain;" alt="image" title="product">
                                 </div>
                                 <div class="product-details">
                                     <!-- product name -->

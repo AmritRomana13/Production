@@ -7,31 +7,15 @@
 <div class="page section-header text-center">
     <div class="page-title">
         <div class="wrapper">
-            <h1 class="page-width">Contact Us</h1>
+            <h1 class="page-width" style="font-weight:bold">Contact Us</h1>
         </div>
     </div>
 </div>
 <!--End Page Title-->
-<div class="map-section map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15299.992381512388!2d81.397941!3d16.5261938!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x33ab352b77a35c75!2sCreative%20Central!5e0!3m2!1sen!2sin!4v1638973918629!5m2!1sen!2sin" height="350" allowfullscreen></iframe>
-    <div class="container">
-        <div class="row">
-            <div class="map-section__overlay-wrapper">
-                <div class="map-section__overlay">
-                    <h3 class="h4">Our store</h3>
-                    <div class="rte-setting">
-                        <p>123 Fake St.<br>Toronto, Canada</p>
-                        <p>Mon - Fri, 10am - 9pm<br>Saturday, 11am - 9pm<br>Sunday, 11am - 5pm</p>
-                    </div>
-                    <p><a href="https://maps.google.com/?daddr=80%20Spadina%20Ave,%20Toronto" class="btn btn--secondary btn--small" target="_blank">Get directions</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 <div class="bredcrumbWrap">
     <div class="container breadcrumbs">
-        <a href="index.html" title="Back to the home page">Home</a><span aria-hidden="true">›</span><span>Contact Us</span>
+        <a href="<?php echo base_url() ?>" title="Back to the home page">Home</a><span aria-hidden="true">›</span><span>Contact Us</span>
     </div>
 </div>
 
@@ -89,25 +73,21 @@
             </div>
             <hr />
             <ul class="addressFooter">
-                <li><i class="icon anm anm-map-marker-al"></i>
-                    <p>55 Gallaxy Enque, 2568 steet, 23568 NY</p>
-                </li>
+                
                 <li class="phone"><i class="icon anm anm-phone-s"></i>
-                    <p>(440) 000 000 0000</p>
+                    <p>+91-9137800013</p>
                 </li>
                 <li class="email"><i class="icon anm anm-envelope-l"></i>
-                    <p>sales@yousite.com</p>
+                    <p>support@reppin.co.in</p>
                 </li>
+                <li><a class="social-icons__link" href="#" target="_blank" title="Belle Multipurpose Bootstrap 4 Template on Instagram"><i class="icon icon-instagram"></i> <span class="icon__fallback-text">Instagram</span></a>
+            <a href="https://www.instagram.com/reppin.co/?hl=en" target="blank"><p>Instagram</p></a></li>
             </ul>
             <hr />
             <ul class="list--inline site-footer__social-icons social-icons">
-                <li><a class="social-icons__link" href="#" target="_blank" title="Belle Multipurpose Bootstrap 4 Template on Facebook"><i class="icon icon-facebook"></i></a></li>
-                <li><a class="social-icons__link" href="#" target="_blank" title="Belle Multipurpose Bootstrap 4 Template on Twitter"><i class="icon icon-twitter"></i> <span class="icon__fallback-text">Twitter</span></a></li>
-                <li><a class="social-icons__link" href="#" target="_blank" title="Belle Multipurpose Bootstrap 4 Template on Pinterest"><i class="icon icon-pinterest"></i> <span class="icon__fallback-text">Pinterest</span></a></li>
-                <li><a class="social-icons__link" href="#" target="_blank" title="Belle Multipurpose Bootstrap 4 Template on Instagram"><i class="icon icon-instagram"></i> <span class="icon__fallback-text">Instagram</span></a></li>
-                <li><a class="social-icons__link" href="#" target="_blank" title="Belle Multipurpose Bootstrap 4 Template on Tumblr"><i class="icon icon-tumblr-alt"></i> <span class="icon__fallback-text">Tumblr</span></a></li>
-                <li><a class="social-icons__link" href="#" target="_blank" title="Belle Multipurpose Bootstrap 4 Template on YouTube"><i class="icon icon-youtube"></i> <span class="icon__fallback-text">YouTube</span></a></li>
-                <li><a class="social-icons__link" href="#" target="_blank" title="Belle Multipurpose Bootstrap 4 Template on Vimeo"><i class="icon icon-vimeo-alt"></i> <span class="icon__fallback-text">Vimeo</span></a></li>
+
+               
+
             </ul>
         </div>
     </div>

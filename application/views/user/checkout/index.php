@@ -42,7 +42,7 @@
                                 <input name="email" value="" required id="email" type="email">
                             </div>
                             <div class="form-group col-md-6 col-lg-6 col-xl-6 required">
-                                <label for="telephone">Telephone <span class="required-f">*</span></label>
+                                <label for="telephone">Mobile no. <span class="required-f">*</span></label>
                                 <input name="telephone" value="" required id="telephone" type="tel">
                             </div>
                         </div>
@@ -78,13 +78,7 @@
                                 <label for="country_id">Country <span class="required-f">*</span></label>
                                 <select name="country_id" required id="country_id">
                                     <option value=""> --- Please Select --- </option>
-                                    <option value="244">Aaland Islands</option>
-                                    <option value="1">Afghanistan</option>
-                                    <option value="2">Albania</option>
-                                    <option value="3">Algeria</option>
-                                    <option value="4">American Samoa</option>
-                                    <option value="5">Andorra</option>
-                                    <option value="6">Angola</option>
+                                    <option value="244">India</option>
                                 </select>
                             </div>
                         </div>
@@ -92,11 +86,42 @@
                             <div class="form-group col-md-6 col-lg-6 col-xl-6 required">
                                 <label for="zone_id">Region / State <span class="required-f">*</span></label>
                                 <select name="zone_id" required id="zone_id">
-                                    <option value=""> --- Please Select --- </option>
-                                    <option value="3513">Aberdeen</option>
-                                    <option value="3514">Aberdeenshire</option>
-                                    <option value="3515">Anglesey</option>
-                                    <option value="3516">Angus</option>
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+<option value="Assam">Assam</option>
+<option value="Bihar">Bihar</option>
+<option value="Chandigarh">Chandigarh</option>
+<option value="Chhattisgarh">Chhattisgarh</option>
+<option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+<option value="Daman and Diu">Daman and Diu</option>
+<option value="Delhi">Delhi</option>
+<option value="Lakshadweep">Lakshadweep</option>
+<option value="Puducherry">Puducherry</option>
+<option value="Goa">Goa</option>
+<option value="Gujarat">Gujarat</option>
+<option value="Haryana">Haryana</option>
+<option value="Himachal Pradesh">Himachal Pradesh</option>
+<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+<option value="Jharkhand">Jharkhand</option>
+<option value="Karnataka">Karnataka</option>
+<option value="Kerala">Kerala</option>
+<option value="Madhya Pradesh">Madhya Pradesh</option>
+<option value="Maharashtra">Maharashtra</option>
+<option value="Manipur">Manipur</option>
+<option value="Meghalaya">Meghalaya</option>
+<option value="Mizoram">Mizoram</option>
+<option value="Nagaland">Nagaland</option>
+<option value="Odisha">Odisha</option>
+<option value="Punjab">Punjab</option>
+<option value="Rajasthan">Rajasthan</option>
+<option value="Sikkim">Sikkim</option>
+<option value="Tamil Nadu">Tamil Nadu</option>
+<option value="Telangana">Telangana</option>
+<option value="Tripura">Tripura</option>
+<option value="Uttar Pradesh">Uttar Pradesh</option>
+<option value="Uttarakhand">Uttarakhand</option>
+<option value="West Bengal">West Bengal</option>
                                 </select>
                             </div>
                         </div>
@@ -105,7 +130,7 @@
                     <fieldset>
                         <div class="row">
                             <div class="form-group col-md-12 col-lg-12 col-xl-12">
-                                <label for="order_note">Order Notes <span class="required-f">*</span></label>
+                                <label for="order_note">Order Notes <span >*</span></label>
                                 <textarea id="order_note" name="order_note" class="form-control resize-both" rows="3"></textarea>
                             </div>
                         </div>

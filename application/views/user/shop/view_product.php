@@ -3,7 +3,7 @@
     <!--Breadcrumb-->
     <div class="bredcrumbWrap">
         <div class="container breadcrumbs">
-            <a href="index.html" title="Back to the home page">Home</a><span aria-hidden="true">›</span><span>Product</span>
+            <a href="<?php echo base_url() ?>" title="Back to the home page">Home</a><span aria-hidden="true">›</span><span>Product</span>
         </div>
     </div>
     <!--End Breadcrumb-->
@@ -75,7 +75,7 @@
                             <a href="#sizechart" class="sizelink btn"> Size Guide</a>
                             <!-- <a href="#productInquiry" class="emaillink btn"> Ask About this Product</a> -->
                         </p>
-                        <div><button id="add_to_cart" onclick="add_to_cart()" style="background-color: black;color: white;height: 8vh;width:25vw;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: larger;font-weight: 800;letter-spacing: 0.1em;">ADD TO CART</button></div>
+                        <div><button id="add_to_cart" onclick="add_to_cart()" style="background-color: black;color: white;height: 8vh;width:200px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: larger;font-weight: 800;letter-spacing: 0.1em;">ADD TO CART</button></div>
                         <?php
                         $check_wishlist = checkwishlistb2c($product_data->id);
                         // $check_wishlist = true;
@@ -85,7 +85,7 @@
                             $text = 'Add To Wishlist';
                         }
                         ?>
-                        <div style="margin-top: 1vh;"><button onclick="add_to_wishlist()" style="background-color: grey;color: white;height: 8vh;width:25vw;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: larger;font-weight: 800;letter-spacing: 0.1em;" id="addtowishlist"><?php echo $text ?></button></div>
+                        <div style="margin-top: 1vh;"><button onclick="add_to_wishlist()" style="background-color: grey;color: white;height: 8vh;width:200px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: larger;font-weight: 800;letter-spacing: 0.1em;" id="addtowishlist"><?php echo $text ?></button></div>
 
                     </center>
 

@@ -50,7 +50,7 @@
                                                 <div class="col">
                                                     <div class="product-image">
                                                         <a href="<?php echo base_url('view_product/') . $product->slug ?>" class="grid-view-item__link">
-                                                            <img class="primary blur-up lazyload" data-src="<?php echo base_url('uploads/products/') .  json_decode($product->images)[0] ?>" style="object-fit: contain;height: 300px;" alt="image" title="product">
+                                                            <img class="primary blur-up lazyload" data-src="<?php echo base_url('uploads/products/') .  json_decode($product->images)[0] ?>" style="object-fit: contain;height: 250px;" alt="image" title="product">
                                                     </div>
                                                     <div class="product-details">
                                                         <div class="product-name">
@@ -62,6 +62,8 @@
                                                         <div class="product-price">
                                                             <span class="price" style="font-size: small;">₹<?php echo $product->sale_price ?></span>
                                                         </div>
+                                                        
+                                                        
                                                     </div>
                                                 </div>
                                         <?php
