@@ -23,9 +23,9 @@
                         <!-- Product Action -->
                         <div class="product-action clearfix">
 
-                            <div class="product-form__item--submit">
+                            <div class="product-form__item--submit" >
                                 <a href="<?php echo base_url('view_product/') . $product->slug ?>" type="button" name="add" class="btn product-form__cart-submit">
-                                    <span>Add to cart</span>
+                                    <span style="padding-top:20px;font-weight:bolder" >View Deal</span>
                                 </a>
                             </div>
                             <div class="display-table shareRow">

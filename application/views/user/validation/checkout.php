@@ -104,13 +104,6 @@
                          message: 'Please enter First Name'
                      }
                  }
-             },
-             order_note: {
-                 validators: {
-                     notEmpty: {
-                         message: 'Please enter order note'
-                     }
-                 }
              }
          }
      }).on('success.form.fv', function(e) {

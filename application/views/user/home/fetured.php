@@ -3,8 +3,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="section-header text-center">
-                    <h2 class="h2">Featured</h2>
+                <div class="section-header ">
+                    <h3  style="font-size: 20px;font-weight:bolder;margin-left:35px">Featured</h3>
 
                 </div>
                 <div class="tabs-listing">
@@ -27,7 +27,7 @@
                         }
                         ?>
                     </ul>
-                    <div class="tab_container">
+                    <div class="tab_container justify-content-center">
                         <?php
                         if (!empty($featured_categories)) {
                             foreach ($featured_categories as $row => $featured_categorie) {

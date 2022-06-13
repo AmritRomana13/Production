@@ -202,6 +202,7 @@ $cart_count = get_user_cart_count();
                                     ?>
                                 </ul>
                             </li>
+                            
                     <?php
                         }
                     }
@@ -239,11 +240,13 @@ $cart_count = get_user_cart_count();
                                     ?>
                                 </ul>
                             </li>
+                            
                     <?php
                         }
                     }
                     ?>
-
+                    <a href="<?php echo base_url('wishlist/') ?>"><img src="<?php echo base_url('assets/') ?>\images\logo\star.svg" style="margin-right: 1vw;" alt=""></a>
+                            <a href="<?php echo base_url('myaccount/') ?>"><img src="<?php echo base_url('assets/') ?>\images\logo\profile.svg" alt=""></a>
                 </ul>
             </div>
             <!--End Mobile Menu-->
